@@ -1,0 +1,18 @@
+.CheckCompilance {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.CheckCompilance__form {
+	padding: 16px;
+}
+
+.CheckCompilance__form-actions {
+	padding-top: 16px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}

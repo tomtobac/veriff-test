@@ -1,0 +1,56 @@
+.Toggle {
+	display: flex;
+}
+
+.Toggle__button {
+	display: none;
+}
+
+.Toggle__label {
+	font-size: 14px;
+	line-height: 36px;
+	letter-spacing: 0.4px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	user-select: none;
+	border: 2px solid var(--primary-color);
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+	padding: 0 16px;
+	height: 36px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.Toggle__label:hover {
+	background-color: var(--highlight-color);
+}
+
+.Toggle__button:checked + .Toggle__label {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+.Toggle__button:disabled + .Toggle__label {
+	background-color: inherit;
+	color: inherit;
+	border-color: inherit;
+	cursor: inherit;
+}
+
+.Toggle__button:checked:disabled + .Toggle__label {
+	background-color: var(--disabled-color);
+}
+
+.Toggle__label--left {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right-width: 1px;
+}
+
+.Toggle__label--right {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-left-width: 1px;
+}

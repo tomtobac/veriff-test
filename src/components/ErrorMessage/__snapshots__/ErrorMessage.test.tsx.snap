@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`ErrorMessage > should render as it is 1`] = `
+<DocumentFragment>
+  <article>
+    <p>
+      Error: Something went wrong
+    </p>
+    <button
+      class="Button"
+      type="button"
+    >
+      Try Again
+    </button>
+  </article>
+</DocumentFragment>
+`;

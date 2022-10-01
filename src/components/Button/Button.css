@@ -1,0 +1,27 @@
+.Button {
+	font-size: 14px;
+	letter-spacing: 0.4px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	user-select: none;
+	border: 2px solid var(--primary-color);
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	position: relative;
+	height: 40px;
+	padding: 0 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.Button:hover {
+	background-color: var(--button-hightlight);
+	border-color: var(--button-hightlight);
+}
+
+.Button:disabled {
+	background-color: var(--disabled-color);
+	cursor: inherit;
+	border-width: 0;
+}

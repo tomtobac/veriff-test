@@ -1,0 +1,28 @@
+.Check {
+	padding: 8px 16px;
+	border-width: 0;
+	border-radius: 2px;
+}
+
+.Check--has-focus,
+.Check:focus {
+	background-color: var(--highlight-color);
+}
+
+.Check:hover {
+	background-color: var(--hover-check-color);
+}
+
+.Check--is-disabled {
+	color: var(--disabled-check-color);
+}
+
+.Check--is-disabled:hover,
+.Check--is-disabled:focus {
+	background-color: var(--secondary-color);
+}
+
+.Check__description {
+	margin-top: 0;
+	font-weight: bold;
+}
