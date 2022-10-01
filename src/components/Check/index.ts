@@ -1,1 +1,1 @@
-export { Check as default } from './Check';
+export { Check as default } from "./Check";

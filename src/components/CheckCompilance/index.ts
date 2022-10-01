@@ -1,1 +1,1 @@
-export { CheckCompilance as default } from './CheckCompilance';
+export { CheckCompilance as default } from "./CheckCompilance";
